@@ -1,0 +1,48 @@
+* {
+  font-family: verdana;
+  margin: 0;
+}
+body {
+  background: #eee;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+}
+#blocks {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+#blocks div {
+  flex: 0 0 100px;
+  padding: 40px 0;
+  text-align: center;
+  background: #ccc;
+}
+
+/* .flex-container {
+  display: flex;
+  background: #fff;
+  
+  flex-flow: column;
+} */
+/* flex-basis works similar to min-width except that if the space available is 
+  less than the width specified it will shrink to respond to available width */
+/* flex: 1 0 320px ---> means flex-grow, flex-shrink and flex-basis respectively */
+/* .box {
+  height: 100px;
+  min-width: 500px;
+} */
+.one {
+  order: -3;
+}
+.two {
+  order: 2;
+}
+.three {
+  order: 1;
+}
+.three {
+  order: 0;
+}
